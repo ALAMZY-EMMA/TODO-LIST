@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainsec{
+    width: 400px;
+    /* height: 500px; */
+    background-color: orange;
+    /* display: flex; */
+    margin-top: 20px;
+    border-radius: 20px;
+}
+h1{
+    text-align: center;
+}
+.clicks{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    gap: 10px;
+}
+
+input{
+    width: 200px;
+    height: 30px;
+    padding: 7px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button{
+    padding: 5px;
+    background-color: rgb(243, 240, 240);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+ul li{
+    text-align: center;
+    background-color:orange;
+}
+.listcontainer ul li{
+    background-color: white;
+    color: black;
+}
+.liststyle{
+    list-style: none;
+    background-color: white;
+    margin-bottom: 5px;
+    padding: 10px 12px;
+}
+.liststylechecked{
+    text-decoration: line-through;
+    list-style: none;
+    background-color: black;
+    margin-bottom: 5px;
+    padding: 10px 12px;
+    color: white;
+}
+span{
+    /* position: absolute; */
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: orange;
+}
+span:hover{
+    background-color: silver;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: black;
+}
+
